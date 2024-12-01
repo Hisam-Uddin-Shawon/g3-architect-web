@@ -8,4 +8,47 @@
     font-style: normal;
   }
 
-  
+/* Header Styles */
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > h3{
+    font-size: 2.8rem;
+    color: #131313;
+}
+nav > ul{
+    display: flex;
+    gap: 30px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+/* End nav */
+/* Banner styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-content h3{
+    font-size: 4rem;
+    color: #131313;
+}
+.banner-content p{
+    color: #727272;
+}
+.banner-content button{
+    
+}
